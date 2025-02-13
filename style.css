@@ -744,29 +744,34 @@ span {
         text-align: center;
         font-size: 16px; /* Taille de police lisible */
         line-height: 1.6;
-        margin: 30px auto;
+        margin-left: 20px;
         max-width: 90%; /* Pour éviter qu'il touche les bords */
     }
 
     .home-content h1 {
         white-space: nowrap;
+        font-size: 40px; /* Réduction pour éviter qu'il dépasse */
+        max-width: 80%;
+        margin-left: 18px;
+        text-align: center;
+        text-overflow: ellipsis;
     }
 
     /* Ajustement du titre "Frontend Developer" */
     .text-animate h3 {
         font-size: 18px; /* Réduction pour éviter qu'il dépasse */
         max-width: 80%;
-        margin: 0;
+        margin-left: 40px;
         text-align: center;
         text-overflow: ellipsis;
     }
 
     /* Mettre les boutons en colonne */
     .btn-box {
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        justify-content: center;
         align-items: center; /* Centrer */
-        gap: 10px; /* Espacement entre les boutons */
+        margin-left: 25px; /* Espacement entre les boutons */
         width: 100%;
         padding: 0 10px;
         gap: 20px;
